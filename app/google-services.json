@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "276834998460",
+    "project_id": "rapid-responce-b1ca5",
+    "storage_bucket": "rapid-responce-b1ca5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276834998460:android:9cb5fd33deb20e2eaed8b9",
+        "android_client_info": {
+          "package_name": "rapid.responce.RUCU"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276834998460-rqrvdqc82qv1d7b78jd9tnohgp9dcntn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYYX6s62TtmZkrfx_qs_DkcCwcJYuMrE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276834998460-rqrvdqc82qv1d7b78jd9tnohgp9dcntn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
