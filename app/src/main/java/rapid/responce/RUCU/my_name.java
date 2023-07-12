@@ -14,7 +14,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class my_name extends AppCompatActivity {
-
+//  implementation "com.mapbox.maps:android:10.14.1"
+//
+//    implementation "com.mapbox.navigation:ui-dropin:2.14.0"
     private EditText mNameEditText;
     private EditText mDescriptionEditText;
     private  EditText mPhoneNumber;

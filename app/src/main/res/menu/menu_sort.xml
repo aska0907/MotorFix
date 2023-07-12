@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_sort_region"
+        android:title="Sort Alphabetical" />
+    <item
+        android:id="@+id/menu_sort_alphabetical"
+        android:title="Sort by Region" />
+    <item
+        android:id="@+id/menu_sort_district"
+        android:title="Sort by district " />
+    <item
+        android:id="@+id/menu_default"
+        android:title="Default" />
+    <item
+        android:id="@+id/menu_exit"
+        android:title="Exit" />
+</menu>

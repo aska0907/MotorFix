@@ -20,34 +20,29 @@
         map:layout_constraintStart_toStartOf="parent"
         map:layout_constraintTop_toTopOf="parent"/>
 
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        android:layout_marginBottom="32dp"
         android:background="@color/orange"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        tools:ignore="MissingConstraints"
-        app:navigationIcon="@drawable/ic_menu"
-        app:contentInsetStart="0dp"
-        app:contentInsetStartWithNavigation="0dp">
-        <Space
-            android:id="@+id/space"
-            android:layout_width="8dp"
-            android:layout_height="0dp"
-            android:text="rapid responce"
-            app:layout_constraintStart_toEndOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/rapid"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
-      <TextView
-          android:id="@+id/rapid"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:text="RAPID RESPONSE"
-          android:textSize="24dp"
-          />
+        app:contentInsetStart="10dp"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RAPID RESPONSE"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="5dp" />
 
     </androidx.appcompat.widget.Toolbar>
 

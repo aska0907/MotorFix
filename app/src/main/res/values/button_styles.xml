@@ -1,0 +1,11 @@
+<resources>
+    <style name="ButtonStyle1" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_background_1</item>
+    </style>
+
+    <style name="ButtonStyle2" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_background_2</item>
+    </style>
+
+    <!-- Define more button styles as needed -->
+</resources>

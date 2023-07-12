@@ -1,9 +1,52 @@
 <resources>
-    <string name="app_name">RAPID RESPONCE</string>
+    <string name="app_name">RAPID RESPONSE</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="profile">Profile</string>
     <string name="settings">Settings</string>
     <string name="garages">Garages</string>
     <string name="home">Home</string>
-
+    <string name="mapbox_access_token" translatable="false">pk.eyJ1Ijoia2F1a2kiLCJhIjoiY2xqZWJrbnlmMGM2bzNxbHNuaXpjY3BwNCJ9.dj9zZuPsjQ1XBtR_8ycqrA</string>
+    <string name="noTokenDialogTitle">NO TOKEN</string>
+    <string name="noTokenDialogBody">NO TOKEN</string>
+    <string name="Me">Me</string>
+    <string name="garageRegistration">GARAGE REGISTRATION</string>
+    <string name="garageName">Enter your Garage name</string>
+    <string name="company">Enter your company Name</string>
+    <string name="fullName">Enter your full name</string>
+    <string name="region">Enter your region eg:Arusha</string>
+    <string name="district">Enter your district</string>
+    <string name="postal">Enter your postal address</string>
+    <string name="number">Enter your phone number</string>
+    <string name="email">Enter Your Email Adress</string>
+    <string name="nida">NIDA Number</string>
+    <string name="tin">Tin number</string>
+    <string name="pass1">Enter Your Password</string>
+    <string name="pass2">Confirm Your Password</string>
+    <string name="checkbox">Check Your Password</string>
+    <string name="submit">SUBMIT</string>
+    <string name="Search">Search</string>
+    <string name="descr">Description</string>
+    <string name="changep">Change Password</string>
+    <string name="regis">Register</string>
+    <string name="request">Request</string>
+    <string name="directCall">Direct call</string>
+    <string name="directReq">Request Service</string>
+    <string name="message">Send TextMessage</string>
+    <string name="reqRepair">Request Repair</string>
+    <string name="location">Define your Location</string>
+    <string name="automob">Which type of automobile??(car? motorcycle?)</string>
+    <string name="problem">Describe The Problem in short</string>
+    <string name="UpdateProfile">Update Profile</string>
+    <string name="Old">Old Password</string>
+    <string name="neww">New Password</string>
+    <string name="ForgotPassword">Forgot Password?</string>
+    <string name="Settings">Settings</string>
+    <string name="Requests">Requests</string>
+    <string name="customerC">Customer Center</string>
+    <string name="myGarage">My Garage</string>
+    <string name="languageS">Change Language</string>
+    <string name="login">Login</string>
+    <string name="dontHaveAccount"> Dont have an account? Sign up.</string>
+    <string name="register_garage_here">Register Garage Here.</string>
+    <string name="start_navigating" translatable="false">Start Navigating</string>
 </resources>

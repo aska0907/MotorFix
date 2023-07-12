@@ -9,10 +9,10 @@
         android:id="@+id/nameTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/aclonica"
-        android:textColor="@color/black"
-        android:textSize="22sp"
+        android:fontFamily="@font/andika"
         android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         android:textStyle="bold" />
     <TextView
         android:id="@+id/nameTextView2"

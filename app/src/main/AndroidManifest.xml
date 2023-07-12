@@ -10,11 +10,11 @@
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -22,8 +22,7 @@
         android:icon="@drawable/logoyetu"
         android:label="@string/app_name"
         android:supportsRtl="true"
-
-        android:theme="@style/Theme.RAPIDRESPONCE"
+        android:theme="@style/AppTheme">
         tools:targetApi="31">
 
         <!--
@@ -48,6 +47,7 @@
             android:name=".wellcomeHome"
             android:exported="true"
             android:label="Rapid Response">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -56,6 +56,74 @@
         </activity>
         <activity
             android:name=".MapsActivity"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".RequestActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ChatActivity"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ViewFeedback"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ViewRequests"
+            android:exported="true">
+
+        </activity>
+
+
+        <activity
+            android:name=".SettingActivity2"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".LatituLang"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".FromMap"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:exported="true">
+
+        </activity>
+
+
+        <activity
+            android:name=".MapMap"
+            android:exported="true"
+         >
+
+        </activity>
+
+        <activity
+            android:name=".activity_set_request"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ImageGarage"
             android:exported="true">
 
         </activity>

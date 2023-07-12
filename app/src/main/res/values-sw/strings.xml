@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RAPID RESPONSE</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="garages">Garages</string>
+    <string name="home">Home</string>
+
+    <string name="noTokenDialogTitle">NO TOKEN</string>
+    <string name="noTokenDialogBody">NO TOKEN</string>
+    <string name="Me">Wasifu</string>
+    <string name="garageRegistration">SAJILI KARAKANA</string>
+    <string name="garageName">Adika Jina la karakana</string>
+    <string name="company">andika jina la kampuni</string>
+    <string name="fullName">andika majina yako yote</string>
+    <string name="region">andika mkoa wako mfano:Arusha</string>
+    <string name="district">andika wilaya yako</string>
+    <string name="postal">andika sanduku la posta</string>
+    <string name="number">andika namba ya simu</string>
+    <string name="email">andika barua pepe</string>
+    <string name="nida"> andika namba ya nida</string>
+    <string name="tin">andika Tin namba</string>
+    <string name="pass1">Andika nywila </string>
+    <string name="pass2">Hakikisha nywila</string>
+    <string name="checkbox">hakiki</string>
+    <string name="submit">WASILISHA</string>
+    <string name="Search">Tafuta</string>
+    <string name="descr">Maelezo ya Ziada</string>
+    <string name="changep">Badilisha nywila</string>
+    <string name="regis">Jisajili</string>
+    <string name="request">Tuma Maombi</string>
+    <string name="directCall">Piga Simu</string>
+    <string name="directReq">Omba huduma</string>
+    <string name="message">Tuma ujumbe </string>
+    <string name="reqRepair">Omba marekebisho</string>
+    <string name="location">Lielezee eneo lako</string>
+    <string name="automob">Je ni Chombo gani Cha usafirii kina tatizo</string>
+    <string name="problem">Lielezee tatizo kwa ufupi</string>
+    <string name="UpdateProfile">Rekebisha wasifu</string>
+    <string name="Old">Nywila ya zamani</string>
+    <string name="neww">Nywila mpya</string>
+    <string name="ForgotPassword">Umesahau nywila??</string>
+    <string name="Settings">Mipangilio</string>
+    <string name="Requests">Maombi</string>
+    <string name="customerC">Kituo Cha Wateja</string>
+    <string name="myGarage">Karakana yangu</string>
+    <string name="languageS">Badilisha Lugha</string>
+    <string name="login">Ingia</string>
+    <string name="dontHaveAccount">Hauna akaunti? jisajili!.</string>
+    <string name="register_garage_here">Sajili Karakana Hapa.</string>
+</resources>

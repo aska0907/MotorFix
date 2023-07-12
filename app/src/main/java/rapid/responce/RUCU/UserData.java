@@ -11,7 +11,10 @@ public class UserData {
     private String phone;
     private  String nida;
     private  String tin;
-    private  String role;
+    private String status;
+    private String uid;
+    private String imageUrl;
+
 
     public UserData() {
         // Required empty constructor
@@ -23,7 +26,8 @@ public class UserData {
 
     }
 
-    public UserData(String email, String Role, String password, String garage_name, String company_name, String full_name, String region, String district, String address, String phone,String nnida, String ttin) {
+    public UserData(String email, String password, String garage_name, String company_name, String full_name, String region, String district, String address, String phone,String nnida, String ttin
+   , String uid, String imageUrl, String status ) {
         this.email = email;
         this.password = password;
         this.garageName = garage_name;
@@ -35,7 +39,10 @@ public class UserData {
         this.phone = phone;
         this.nida=nnida;
         this.tin=ttin;
-        this.role=Role;
+        this.uid=uid;
+        this.imageUrl=imageUrl;
+        this.status=status;
+
     }
 
     public String getGarageName() {
@@ -46,6 +53,21 @@ public class UserData {
         return phone;
     }
     public String getRegion(){return region;}
+    public String getDistrict(){return district;}
+    public String getGarageCompany() {
+        return garageCompany;
+    }
+    public String getUid() {
+        return uid;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public String getImage() {
+        return imageUrl;
+    }
 }
 
 

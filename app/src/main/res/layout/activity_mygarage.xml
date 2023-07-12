@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -9,6 +8,7 @@
     android:layout_height="match_parent"
     android:background="@color/very_lightly_pink"
     tools:context=".ProfileActivity">
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
@@ -23,12 +23,11 @@
         map:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
 
-
         <TextView
             android:id="@+id/me"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="My Garage"
+            android:text="@string/Me"
             android:textColor="@color/black"
             android:textSize="30sp"
             tools:layout_editor_absoluteX="0dp"
@@ -36,59 +35,102 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-    <Button
-        android:id="@+id/button"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="40dp"
-        android:background="@drawable/buttons"
-        android:drawableLeft="@drawable/username3"
+        android:layout_height="0dp"
+        map:layout_constraintTop_toBottomOf="@id/my_toolbar"
+        map:layout_constraintBottom_toTopOf="@id/bottomNavigationView">
 
-        android:textSize="14sp"
-        android:textAllCaps="false"
-        map:layout_constraintEnd_toEndOf="parent"
-        map:layout_constraintStart_toStartOf="parent"
-        map:layout_constraintTop_toBottomOf="@+id/my_toolbar"
-        map:rippleColor="@color/very_lightly_pink" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="40dp"
-        android:background="@drawable/buttons"
-        android:drawableLeft="@drawable/address_book"
+            <ImageView
+                android:id="@+id/garage_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="5dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mymyprofile"
+                app:civ_border_color="@color/light_pink"
 
-        android:textAllCaps="false"
-        android:textSize="14sp"
-        map:layout_constraintEnd_toEndOf="parent"
-        map:layout_constraintStart_toStartOf="parent"
-        map:layout_constraintTop_toBottomOf="@+id/button"
-        map:rippleColor="@color/very_lightly_pink" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
+            <Button
+                android:id="@+id/mygarage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttons"
+                android:drawableTop="@drawable/my_name"
+                android:text="USERNAME"
+                map:layout_constraintBottom_toTopOf="@+id/button7"
+                map:layout_constraintEnd_toStartOf="@+id/button5"
+                map:layout_constraintStart_toStartOf="parent"
+                map:layout_constraintTop_toBottomOf="@+id/garage_image" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="40dp"
-        android:background="@drawable/buttons"
-        android:drawableLeft="@drawable/marker"
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttons"
+                android:drawableTop="@drawable/call"
+                android:text="@string/number"
+                map:layout_constraintBottom_toTopOf="@+id/button9"
+                map:layout_constraintEnd_toEndOf="parent"
+                map:layout_constraintStart_toEndOf="@+id/mygarage"
+                map:layout_constraintTop_toBottomOf="@+id/garage_image" />
 
-        android:textAllCaps="false"
-        android:textSize="14sp"
-        map:layout_constraintEnd_toEndOf="parent"
-        map:layout_constraintStart_toStartOf="parent"
-        map:layout_constraintTop_toBottomOf="@+id/button2"
-        map:rippleColor="@color/very_lightly_pink" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttons"
+                android:drawableTop="@drawable/location"
+                android:text="Location"
+                map:layout_constraintBottom_toBottomOf="parent"
+                map:layout_constraintEnd_toStartOf="@+id/button9"
+                map:layout_constraintStart_toStartOf="parent"
+                map:layout_constraintTop_toBottomOf="@+id/mygarage" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttons"
+                android:drawableTop="@drawable/reset_password"
+                android:text="Change Password"
+                map:layout_constraintBottom_toBottomOf="parent"
+                map:layout_constraintEnd_toEndOf="parent"
+                map:layout_constraintStart_toEndOf="@+id/button7"
+                map:layout_constraintTop_toBottomOf="@+id/button5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView1"
+        android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:addStatesFromChildren="true"
@@ -100,11 +142,10 @@
         android:focusable="auto"
         app:itemIconTint="@drawable/bottom_navigation_selector"
         app:itemTextColor="@drawable/bottom_navigation_selector"
-        app:menu="@menu/buttom_navigation_menu2"
+        app:menu="@menu/menu_buttom_garage"
         map:labelVisibilityMode="labeled"
         map:layout_constraintBottom_toBottomOf="parent"
         map:layout_constraintEnd_toEndOf="parent"
-        map:layout_constraintStart_toStartOf="parent"
-        />
+        map:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
